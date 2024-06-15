@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="oferr_cont">ENVÍO GRATIS A PARTIR DE $1100</div>
+        <div class="wapp-header">
+            <div>
+                <p style="font-style: italic;">
+                   <span style="color: black;">
+                    <span style="color: white">Llamanos</span>
+                   </span>
+                </p>
+            </div>
+            "346-748-9494"
+        </div>
+        <p class="timings" style="font-style: italic;">
+          <span style="color: orange;">
+            <a style="color: orange;" href="">
+              <span style="text-decoration: underline;">Rastrea tu pedido</span>
+            </a>
+          </span>
+        </p>  
+        </div>
+    </header>
+    <div class="header-content">
+        <div class="container">
+            <div class="header-menu"> 
+                <div class="menu">
+                <figure>
+                    <img src="../imagenes/imgPagina.png" alt="m" width="35" height="35"/>
+                </figure>
+                </div>
+                <div class="logo">
+                <figure>
+                    <a href="../index.html"><img src="../imagenes/logo_small.png" alt="log" width="300" height="60"/></a>
+                </figure>
+                </div>
+            </div>
+        <div class="container2">
+            <div class="buscador" style="font-size: 10px;">
+                <input type="text" id="searchInput" onkeyup="filterList()" placeholder="Buscar...">
+            </div>
+            <div class="_doc_content">
+                <figure>
+                    <img src="../imagenes/Tiendacercana.png" alt="tc" width="150" height="60"/>
+                </figure>
+            </div>
+            <div class="micuenta desplegable">
+                <section>
+                    <a href="#">Mi cuenta</a>
+                </section>
+                <div class="contenido-desplegable">
+                    <a href="#" id="iniciarSesionLink">Iniciar sesión</a>
+                    <a href="#" id="crearCuentaLink">Crear cuenta</a>
+                </div>
+            </div>
+            <div>
+                <section>
+                    <a href=""><img src="../imagenes/carrito.png" alt="car" width="60" height="60"></a>
+                </section>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div>
+        <nav class="menu-sup">
+            <ul>
+                <li class="desplegable">
+                    <a href="#"><img src="../imagenes/pro.png" alt="prod" width="300" height="50"></a>
+                    <div class="contenido-desplegable">
+                        <a href="#">Lácteos</a>
+                        <a href="#">Despensa y Abarrotes</a>
+                        <a href="#">Frutas y Verduras</a>
+                        <a href="#">Limpieza del Hogar</a>
+                        <a href="#">Bebidas</a>
+                        <a href="#">Salchichonería</a>
+                        <a href="#">Botana</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+<div class="pr">
+    <div class="producto">
+       <img src="../imagenes/prod1.png" alt="pro1" height="350" width="200"> 
+    </div>
+    <div class="producto1">
+        <img src="../imagenes/prod2.png" alt="pro2" height="350" width="200">
+    </div>
+    <div class="producto2">
+        <img src="../imagenes/prod3.png" alt="pro3" height="350" width="200">
+    </div>
+    <div class="producto3">
+        <img src="../imagenes/prod4.png" alt="pro4" height="350" width="200">
+    </div>
+</div>
+
+    <footer>
+        <div class="acerca-de">
+            <h4>Contacto<img src="../imagenes/wsp.png" alt="wasp" width="25" height="25">346-748-9494</h4> 
+        </div>
+        <div>
+            <h4>Atención a clientes: abarroteslaprovidencia@gmail.com</h4>
+        </div> 
+    </footer>
+    <div class="cookies">
+        <img src="../imagenes/Captura de pantalla 2024-05-13 174712.png" alt="cok" width="1217px">
+    </div> 
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <div id="iniciarSesionForm">
+                <h2>Información De Inicio De Sesión</h2>
+                <div>
+                    <img src="../imagenes/logo_small.png" alt="" width="300" height="100">
+                </div>
+                <div class="form-section">
+                    <form id="formSesion">
+                        <div>
+                            <label for="correoSesion">Correo electrónico *</label>
+                            <input type="email" id="correoSesion" name="correoSesion" required></div>
+                        <div>
+                            <label for="contrasenaSesion">Contraseña *</label>
+                            <input type="password" id="contrasenaSesion" name="contrasenaSesion" required>
+                        </div>
+                        <div>
+                            <label for="confirmarContrasenaSesion">Confirma contraseña *</label>
+                            <input type="password" id="confirmarContrasenaSesion" name="confirmarContrasenaSesion" required>
+                        </div>
+                        <button type="button" id="showPasswordSesion">Mostrar</button> 
+                        <div><label>
+                            <input type="checkbox" name="rememberSesion"> Recordar mi cuenta
+                        </label></div>
+                        <div><button type="submit" class="btn">Iniciar Sesión</button></div>
+                    </form>
+                    <div id="errorMessagesSesion" style="color: red;"></div>
+                </div>
+            </div>
+            <div id="crearCuentaForm">
+                <h2>Información Personal</h2>
+                <div class="form-section">
+                    <form id="formCuenta">
+                        <div class="form-container">
+                              <div class="form-section">
+                                <div class="form-column">
+                                  <label for="nombre">Nombre <span class="required">*</span></label>
+                                  <input type="text" id="nombre" name="nombre" required>
+                          
+                                  <label for="apellidoPaterno">Apellido Paterno <span class="required">*</span></label>
+                                  <input type="text" id="apellidoPaterno" name="apellidoPaterno" required>
+                          
+                                  <label for="apellidoMaterno">Apellido Materno <span class="required">*</span></label>
+                                  <input type="text" id="apellidoMaterno" name="apellidoMaterno" required>
+                          
+                                  <label for="sexo">Sexo</label>
+                                  <select id="sexo" name="sexo">
+                                    <option value="">Seleccione...</option>
+                                    <option value="masculino">Masculino</option>
+                                    <option value="femenino">Femenino</option>
+                                    <option value="otro">Otro</option>
+                                  </select>
+                          
+                                  <label for="telefono">Teléfono <span class="required">*</span></label>
+                                  <input type="tel" id="telefono" name="telefono" required>
+                                </div>
+                          
+                                <div class="form-column">
+                                  <label for="correoElectronico">Correo Electrónico <span class="required">*</span></label>
+                                  <input type="email" id="correoElectronico" name="correoElectronico" required>
+                          
+                                  <label for="contrasena">Contraseña <span class="required">*</span></label>
+                                  <input type="password" id="contrasena" name="contrasena" required>
+                                  <div class="password-strength">Seguridad de la Contraseña: Sin Contraseña</div>
+                          
+                                  <label for="confirmaContrasena">Confirma Contraseña <span class="required">*</span></label>
+                                  <input type="password" id="confirmaContrasena" name="confirmaContrasena" required>
+                          
+                                  <div class="form-check">
+                                    <input type="checkbox" id="recordarCuenta" name="recordarCuenta">
+                                    <label for="recordarCuenta">Recordar mi cuenta <span class="required">*</span></label>
+                                  </div>
+                              </div>
+                              <div class="form-submit">
+                                <button type="submit">CREAR CUENTA</button>
+                              </div>
+                          </div>
+                    </form>
+                </div>
+                <div id="errorMessagesCuenta" style="color: red;"></div>
+            </div>
+        </div>
+    </div> 
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,419 @@
+.site-header {
+    background-color: #0f3c73;
+    color: white;
+    padding: 10px 0;
+    box-sizing: content-box;
+    height: 40px;
+    justify-content: center;
+    display: -webkit-flex;
+    flex-direction: row;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .offer_cont{
+    right: 30px;
+  }
+  header .header-item .wapp-header-container {
+    display: flex;
+    padding-left: 8px;
+}
+  .container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+  }
+  
+.offer_cont,
+.wapp-header,
+.timings {
+    font-style: italic;
+}
+  
+.wapp-header {
+    margin-left: 20px;
+    padding-left: 8px;
+    text-align: center;
+    display: flex;
+}
+  .header .header-top .header-item:first-child>* {
+    font-size: 1.4rem;
+}
+.timings{
+    margin-left: 20px;
+}
+.header-content{
+    padding: 15px !important;
+    position: relative;
+    top: 0;
+}
+.header-menu{
+    display: flex;
+    position: relative;
+    top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+    left: 0px;
+}
+.logo {
+    margin-left: 10px;
+}
+.container2{
+    display: flex;
+    position: relative;
+    top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+    flex: 0 0 50%;
+    max-width: 50%;
+    left: 100px;
+}
+.micuenta{
+  font-size: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+  left: 60px;
+}
+._doc_content{
+  margin-right: 30px;
+  left: 2000px;
+}
+.carrito{
+  margin-left:50px;
+
+}
+.contenido{
+  max-width: 50%;
+}
+.body1{
+  padding: 15px !important;
+  position: relative;
+  top: 0;
+}
+footer {
+  top: 0;
+  background-color: #0f3c73; 
+  padding:60px;
+  display: flex; 
+  justify-content: space-between; 
+  align-content: center;
+}
+.acerca-de{
+  display: flex;
+  font-size: 16px;
+}
+.Ventas{
+    text-align: center;
+    margin: 10px;
+}
+.search-container {
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+/* styles.css */
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buscador {
+  flex-grow: 1;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+#productList {
+  list-style-type: none;
+  padding: 0;
+  width: 300px;
+  margin: 20px 0;
+}
+
+#productList li {
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo iniciar sesion */
+.desplegable {
+  position: relative;
+  display: inline-block;
+}
+
+.contenido-desplegable {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.desplegable:hover .contenido-desplegable {
+  display: block;
+}
+
+.contenido-desplegable a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.contenido-desplegable a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Section Styles */
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position:relative;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 75%;
+  height: 75%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Form styles */
+.form-section {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  gap: 30px; /* Espacio entre las columnas del formulario */
+  align-items: center; /* Alinea las columnas en la parte superior */
+}
+.form-column {
+  flex: 1;
+  min-width: 250px;
+  max-width: 48%; /* Ajusta el ancho de las columnas según sea necesario */
+  box-sizing: border-box;
+}
+
+.form-column h3 {
+  margin-top: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.form-column label {
+  display:inline-flex;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-column input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+#showPasswordSesion, #showPasswordCuenta {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+#showPasswordSesion:hover, #showPasswordCuenta:hover {
+  background-color: #FFC700;
+}
+
+#submitForm {
+  background-color: #0F3C73; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  align-self:center; /* Alinea el botón de enviar al final de la sección del formulario */
+}
+
+#errorMessagesSesion, #errorMessagesCuenta {
+  color: red;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Additional Styles for Better Alignment */
+.form-section {
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+}
+
+.form-section button {
+  width: fit-content;
+  align-self: center;
+}
+
+#formSesion label,
+#formSesion input {
+  margin: 7px;
+  display:flex; /* Cambiar inline-block a block */
+}
+#iniciarSesionForm img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#formSesion{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Estilo Informacion Personal*/
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-section {
+  display:flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.form-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.form-column label {
+  display: block;
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-column input,
+.form-column select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.required {
+  color: red;
+}
+
+.password-strength {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-check input {
+  margin-right: 10px;
+}
+.form-submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-submit button {
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-submit button:hover {
+  background-color: #e64a19;
+}
+
